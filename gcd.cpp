@@ -17,3 +17,18 @@ for(i = MAX ; i>=1; i--) // what gcd can be formed
   }
 }
 
+//sum of euler totient function upto a particular n 
+for(i = 2 ; i <= max; i++)
+{
+  if(dp[i]==0)
+  {
+    dp[i] = i-1;
+    for(j = i*2 ; j<= max; j+=i)
+    {
+      if(dp[j]==0)
+      dp[j] = j ;
+      dp[j] = dp[j]/i*(i-1);
+    }
+  }
+}
+// dp[i] will calculate the euler totient for n = i ; 
