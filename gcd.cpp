@@ -32,3 +32,8 @@ for(i = 2 ; i <= max; i++)
   }
 }
 // dp[i] will calculate the euler totient for n = i ; 
+
+//for calculating sum of gcd(k , n) for k = 1 to n ;
+// pilais theorem . 
+sum = d*phi(n/d); where d is every divisor of n ; 
+// gcd extreme spoj 
