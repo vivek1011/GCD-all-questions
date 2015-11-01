@@ -1,5 +1,5 @@
 to calculate what gcd comes in how many number of subsets of the array 
-// subset gcd adobe hackathon 
+// subset gcd adobe hackathon hint: gcd g = 2^(count of all the multiples of g ) - 1 - summation of all front multiples ans
 // https://www.hackerrank.com/contests/adobe-hackathon/challenges/bokam-and-his-gcd
 
 to calculate what maximum gcd in array can be formed by using any of the (a[i] , a[j] ) pair for i < j 
