@@ -37,3 +37,8 @@ for(i = 2 ; i <= max; i++)
 // pilais theorem . 
 sum = d*phi(n/d); where d is every divisor of n ; 
 // gcd extreme spoj 
+
+Revise - codechef november challenge
+sum(n/__gcd(i , n)) for every i = 1 to i = n ;
+remember : sumoflcm(i , n ) for i = 1  to i = n is n*(a[n]+1)/2 ; 
+where a[k*l] = a[k]*a[l] if gcd(k , l )=1; and a[prime ^ exponent] = (p ^ (2*e + 1) + 1)/(p+1); 
